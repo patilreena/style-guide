@@ -62,6 +62,14 @@ body {
     border-radius: 50%;
     background-color: #e8e8e8;
 }
+.style-guide .round3{
+    display: inline-block;
+    width: 70%;
+    height: 0;
+    padding-top: 70%;
+    border-radius: 50%;
+    background-color: #2e2e2e;
+}
 
 .style-guide .intro {
 	font-size: 1.5em;
