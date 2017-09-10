@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> style guide</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="container style-guide">
+  	<h1> Style Guide</h1>
+  	<h2> Colours </h2> <hr>
+  	 <div class="row">
+      <div class="col">
+      	<span class="round"></span>
+      	<p class="mr-5 ml-5"> #2c3e50</p>
+      </div>
+       <div class="col">
+       	<span class="round1"></span>
+      	<p class="mr-5 ml-5"> #dc3545 </p>
+       </div>
+        <div class="col">
+         <span class="round2"></span>
+      	 <p class="mr-5 ml-5"> #e8e8e8</p>
+        </div>
+       </div>
+       <h2> Typography </h2> <hr>
+       <h1> This is a heading of the highest importance.</h1>
+       <p> This is a sample paragraph. I do not clearly remember the arrival of the curate, so that probably I dozed. I became aware of him as a seated figure in soot-smudged shirt sleeves, and with his upturned, clean-shaven face staring at a faint flickering that danced over the sky. The sky was what is called a mackerel sky--rows and rows of faint down-plumes of cloud, just tinted with the midsummer sunset.</p>
+       <h2 class="mt-4"> I'm a subheading</h2>
+       <p>Paragraphs might also contain <strong>strong text</strong>, <em>emphasized text</em>, and maybe even a <a href="#">link somewhere.</a></p>
+       <ul>
+		 <li>Behold! A List Item!</li>
+		 <li>Second list item that's long enough to wrap onto a second line. Long list item is loooong.</li>
+		 <li>This is a test of the emergency list item service.</li>
+	   </ul>
+
+	   <h3> Here are some other headings you might want to use. [h3]</h3>
+	   <h4 class="mt-4"> You should set up some base styles for all of us. [h4]</h4>
+	   <h5 class="mt-4"> Me too, please![h5]</h5>
+	   <h6 class="mt-4"> Don't forget about little 'ol me. [h6]</h6>
+
+     <h2> Forms </h2> <hr>
+     <form formnum="1">
+      <h3 class="form-title">Form Title [.form-title]</h3>
+      <label>Input Label</label>
+      <input type="email" placeholder="placeholder text">
+      <label>Textarea Label</label>
+      <textarea placeholder="placeholder" rows="10"></textarea>
+      <button type="button" class="btn btn-secondary mt-3">Submit</button>
+    </form>
+
+    <h2> Media</h2> <hr>
+    <div>
+     <div class="row">
+      <div class="col-sm-4">
+       <img class="image" src="images/bird.jpeg">
+       <p class="ml-5"> img.avatar</p>
+      </div>
+      <div class="col-sm-4">
+       <img class="image1 ml-5" src="images/bird1.jpg">
+       <p class="text-center"> img.portfolio </p>
+      </div>
+      </div>
+     </div>
+
+     <h2> UI Components </h2> <hr>
+     <h3 class="text-danger"> Buttons</h3>
+     <button type="button" class="btn btn-secondary">Send</button>
+    
+     <h3 class="text-danger mt-5"> Navbars </h3>
+       <nav class="navbar navbar-expand-lg navbar-light style-navbar mt-3">
+      <a class="navbar-brand" href="#">Logo</a>
+       <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+ <h3 class="text-danger mt-5"> Grid</h3>
+ <div class="bd-example bd-example-row small-grid mt-3">
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div>
+</div>
+<table class="table table-bordered table-striped table-responsive mt-5">
+  <thead>
+    <tr>
+      <th></th>
+      <th class="text-center">
+        Extra small<br>
+        <small>&lt;576px</small>
+      </th>
+      <th class="text-center">
+        Small<br>
+        <small>≥576px</small>
+      </th>
+      <th class="text-center">
+        Medium<br>
+        <small>≥768px</small>
+      </th>
+      <th class="text-center">
+        Large<br>
+        <small>≥992px</small>
+      </th>
+      <th class="text-center">
+        Extra large<br>
+        <small>≥1200px</small>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="text-nowrap" scope="row">Max container width</th>
+      <td>None (auto)</td>
+      <td>540px</td>
+      <td>720px</td>
+      <td>960px</td>
+      <td>1140px</td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row">Class prefix</th>
+      <td><code>.col-</code></td>
+      <td><code>.col-sm-</code></td>
+      <td><code>.col-md-</code></td>
+      <td><code>.col-lg-</code></td>
+      <td><code>.col-xl-</code></td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row"># of columns</th>
+      <td colspan="5">12</td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row">Gutter width</th>
+      <td colspan="5">30px (15px on each side of a column)</td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row">Nestable</th>
+      <td colspan="5">Yes</td>
+    </tr>
+    <tr>
+      <th class="text-nowrap" scope="row">Column ordering</th>
+      <td colspan="5">Yes</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
