@@ -10,7 +10,7 @@ body {
 .style-guide h1 {
    font-size: 3.5em;
    font-weight: 600;
-   color: #827e7e;
+   color: #2c3e50;
    line-height: 1.3em;
 }
 .style-guide h2 {
@@ -18,13 +18,9 @@ body {
     margin-top: 2em;
     font-size: 2em;
     font-weight: 300;
-    color: #00cdac;
+    color: #dc3545;
 }
- .style-guide h3 {
-    color: #02aab0;
-    font-weight: 300;
-    font-size: 1.17em;
-}
+
  .style-guide h4 {
     font-weight: 400;
     font-size: 1em;
